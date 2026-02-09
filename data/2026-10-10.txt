@@ -1,0 +1,11 @@
+========================================
+       RAPPORT DE PRODUCTION           
+========================================
+Date analysée : 2026-10-10
+
+Total pièces conformes (OK)     : 56
+Total pièces non conformes (KO) : 54
+----------------------------------------
+TOTAL GÉNÉRAL                  : 110
+Taux de qualité                : 50,91%
+========================================
