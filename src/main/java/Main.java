@@ -1,3 +1,5 @@
+import manager.ProductionManager;
+
 import java.io.Console;
 import java.util.Scanner;
 
@@ -26,7 +28,8 @@ static void main(String[] args) {
 
             case "2":
 
-                System.out.println("processus en cours d'executon...\n");
+                ProductionManager pm = new ProductionManager();
+                pm.saisirProduction(); // lance la saisie
                 try {
                     Thread.sleep(2000);
                 } catch (InterruptedException e) {
